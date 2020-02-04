@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "no-dead-store": false,
+    "no-input-rename": false,
+    "use-primitive-type": true,
+    "bool-param-default": false,
+    "no-statements-same-line": false,
+    "whitespace": [true, "check-branch", "check-rest-spread", "check-type", "check-typecast", "check-type-operator",
+      "check-decl", "check-operator"],
+    "no-console": {"severity" : "warning"},
+    "no-trailing-whitespace": [true, "ignore-blank-lines"],
+    "no-empty": [false, "allow-empty-functions"],
+    "no-implicit-dependencies": [false, "optional"],
+    "quotemark": [true, "single", "avoid-escape", "avoid-template"],
+    "component-selector": [true, "element", ["app", "cmp"], "kebab-case"],
+    "directive-selector": [true, "attribute", ["app", "dir","drt"],"kebab-case"],
+    "comment-format": [true, "check-space"],
+    "semicolon": [true, "always", "ignore-interfaces"]
+  }
+}
